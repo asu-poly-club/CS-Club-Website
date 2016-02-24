@@ -1,4 +1,9 @@
 /* Styles go here */
+#top-nav{
+    margin:0;
+    border-radius:0;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+}
 .jumbotron {
     position: absolute;
     background: #000 url("http://www.heromachine.com/wp-content/uploads/2015/08/a-mc-random-28.jpg") center center;
@@ -7,14 +12,4 @@
     height: 50%;
     background-size: cover;
     overflow: hidden;
-}
-.container {
-    color: #0f0f0f;
-    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
-    text-align: center;
-}
-#top-nav{
-    margin:0;
-    border-radius:0;
-    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
