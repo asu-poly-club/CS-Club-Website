@@ -21,7 +21,7 @@
 	padding-top: 1px;
 }
 #slider {
-	margin: 100px 0 0 0;
+	margin: 0 0 0 0;
 	height: 500px;
 	overflow: hidden;
 	background: url(img/ajax-loader.gif) center center no-repeat;
