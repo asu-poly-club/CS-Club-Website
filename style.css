@@ -69,3 +69,17 @@
 #slider .slide-block p {
 	margin: 0;
 }
+
+#AboutUs-Wrapper{
+	margin:0 auto;
+}
+
+#AboutUs-Header{
+	vertical-align:middle;
+	text-align:center;
+}
+
+#AboutUs{
+	text-align:center;
+	
+}
