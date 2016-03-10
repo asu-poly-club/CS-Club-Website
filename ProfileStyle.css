@@ -1,3 +1,16 @@
 *{
     text-color:red;
 }
+
+.card{
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    text-align:center;
+}
+
+.card-title{
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+    font-weight: bold;
+}

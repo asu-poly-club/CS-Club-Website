@@ -1,44 +1,103 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <head>
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-        <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script data-require="bootstrap@*" data-semver="3.3.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-        <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="https://github.com/asu-poly-club/CS-Club-Website/blob/master/ProfileStyle.css" />
+    <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://github.com/asu-poly-club/CS-Club-Website/blob/master/ProfileStyle.css" />
 
-        <script src="script.js"></script>
-    </head>
+    <script src="script.js"></script>
+  </head>
 
     <body>
-    <div class="card-group">
-        <div class="card" id="left">
-            <img class="card-img-top" data-src="..." alt="Card image cap">
-            <div class="card-block">
-                <h4 class="card-title">Name</h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <nav class="navbar navbar-inverse" id="top-nav">
+        <div class="container-fluid">
+
+          <!-- Logo -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/index.html" class="navbar-brand"><b>Poly CS Club</b></a>
+          </div>
+
+          <!-- Menu items on collapse -->
+          <div>
+            <div class="collapse navbar-collapse navbar-inver" id="mainNavBar">
+              <ul class="nav navbar-nav">
+                <li><a href="/index.html">Home</a></li>
+                <li class="active"><a href="/Profile.html">Projects</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
             </div>
+          </div>
+
         </div>
-        <div class="card" id="middle">
-            <img class="card-img-top" src="TestBackground.jpe" alt="Card image cap">
-            <div class="card-block">
-                <h4 class="card-title">Name</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+      </nav>
+
+      <!-- Profiles -->
+      <div class="card-group">
+        <div class="card" id="first">
+          <img class="card-img-top" data-src="..." alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Name</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
         </div>
-        <div class="card" id="right">
-            <img class="card-img-top" data-src="..." alt="Card image cap">
-            <div class="card-block">
-                <h4 class="card-title">Name</h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+
+        <div class="card" id="second">
+          <img class="card-img-top" src="TestBackground.jpe" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Name</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
         </div>
-    </div>
+
+        <div class="card" id="third">
+          <img class="card-img-top" data-src="..." alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Name</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card" id="fourth">
+          <img class="card-img-top" data-src="..." alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Name</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card" id="fifth">
+          <img class="card-img-top" src="TestBackground.jpe" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Name</h4>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card" id="sixth">
+          <img class="card-img-top" data-src="..." alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Name</h4>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+      </div>
     </body>
 </html>
 
