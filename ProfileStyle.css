@@ -4,7 +4,7 @@
 
 .card{
     display: inline-block;
-    width: auto;
+    width: 350px;
     height: auto;
     padding: 20px;
     text-align:center;
