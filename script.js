@@ -70,7 +70,7 @@ $(function() {
 	});
  
 	//	Enable code below if you want to support browser resizing
-	$(window).resize(function(){
+	$(window).onload(function(){
  
 		var slider = $('#slider'),
 			_width = $('#wrapper').width();

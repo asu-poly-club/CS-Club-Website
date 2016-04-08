@@ -16,9 +16,7 @@
 #wrapper {
 	height: 100%;
 	width: 100%;
-	min-height: 650px;
 	min-width: 900px;
-	padding-top: 1px;
 }
 #slider {
 	margin: 0 0 0 0;
@@ -70,18 +68,13 @@
 	margin: 0;
 }
 
-#AboutUs-Wrapper{
-	margin:0 auto;
+#first {
+	height: 500px;
+	background: #232323;
 }
-
-#AboutUs-Header{
-	vertical-align:middle;
-	text-align:center;
-	font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
-    font-weight: bold;
+#second {
+	height: 500px;
 }
-
-#AboutUs{
-	text-align:center;
-	
+#third {
+	height: 500px;
 }
