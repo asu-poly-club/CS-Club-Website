@@ -15,3 +15,13 @@
 	background-color: #000;
 	border-color: #000;
 }
+.navbar-wrapper {
+	position: fixed;
+}
+/*
+#navbar {
+	width: 85px;
+	background-color: green;
+	float: right;
+}
+*/
