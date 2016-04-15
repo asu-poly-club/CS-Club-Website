@@ -2,3 +2,16 @@
 .navbar-nav {
 	float: right;
 }
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.logo-left {
+	margin: 12px 10px 0 0;
+}
+.navbar-inverse {
+	background-color: #000;
+	border-color: #000;
+}
