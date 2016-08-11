@@ -2,7 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
+<<<<<<< HEAD
       <webServer id="ea2bd742-eb50-416a-a158-ee906aa7423d" name="richmelchr.com" url="http://richmelchr.com/crypto">
+=======
+      <webServer id="ea2bd742-eb50-416a-a158-ee906aa7423d" name="richmelchr.com" url="http://richmelchr.com">
+>>>>>>> 5c2a3d09f8ea9e4749ca33a7b5ed1b3aee80dede
         <fileTransfer host="richmelchr.com" port="22" rootFolder="/home/crypto/public_html/" accessType="SFTP" password="dfd3df8bdfebdfcbdfdadfd0dffddf98df9c" username="crypto">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
